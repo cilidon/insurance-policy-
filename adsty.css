@@ -1,0 +1,169 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.login-box{
+padding :13px 13px;
+  background-color:#fff;
+  width: 320px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+border-radius: 50px;
+box-shadow:  0px 0px 8px 0px #ddd;
+}
+.login-box h1{
+transition: all 250ms ease-in-out ;
+  float: left;
+color:#72bcd4;
+  margin-left:10px;
+  font-size: 40px;
+  text-shadow: 1px 1px 8px #aaa;
+  margin-bottom: 50px;
+  padding: 13px 0;
+
+}
+.login-box h1:hover{
+text-shadow: 0px 0px 0px  #000;
+}
+.textbox{
+box-shadow:  0px 0px 8px 0px #aaa;
+  border-radius: 20px;
+  width: 97%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 8px;
+  margin: 8px ;
+  border: 1px solid #72bcd4;
+  transition: all 250ms ease-in-out ;
+}
+.textbox i{
+  width: 26px;
+  color : #72bcd4;
+  float: left;
+border-right: 1px solid #72bcd4;
+
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: #444;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.textbox select{
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #777;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 50%;
+  display: block;
+  background: none;
+  border: 1px solid #72bcd4;
+  color: #72bcd4;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: auto;
+  position: relative;
+  text-transform: uppercase;
+box-shadow:  0px 0px 8px 0px #000;
+transition: all 0.5s ease-in-out;
+border-radius: 20px;
+}
+
+.btn:hover {
+color : #eee;
+
+background-color : #72bcd4;
+box-shadow:  0px 0px 0px  #000;
+}
+table{
+  width: 80%;
+  border-collapse: collapse;
+  text-align: left;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px #ddd;
+  margin-left: 150px;
+  }
+ td, th{
+  text-align: center;
+  width: 35px;
+  height: 30px;
+    border-top: 1px solid #ECF0F1;
+    padding: 10px;
+  }
+  
+  td{
+    border-left: 1px solid #ECF0F1;
+    border-right: 1px solid #ECF0F1;
+  }
+  
+  th{
+    background-color: #72bcd4;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #add8e6;
+  }
+  tr:nth-child(odd) {
+    background-color: #daedf4;
+  }
+ td a {
+  color: #697da3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+td a:hover {
+  color: #000;
+}
+
+  .bt {
+    border-color: #72bcd4;
+  color: #fff;
+  box-shadow: 0px 0px 40px 40px #72bcd4 inset, 0 0 0 0 #72bcd4;
+  transition: all 150ms ease-in-out;
+  box-sizing: border-box;
+  appearance: none;
+  border-radius: 0.6em;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+  .bt:hover {
+    color: #72bcd4;
+    background-color: transparent;
+    box-shadow: 0 0 10px 0 #72bcd4 inset, 0 0 10px 4px #72bcd4;
+  }
+
+.pdfimg
+{
+    height: 15px;
+    width: 15px;
+}
